@@ -45,7 +45,6 @@ public class ItemAdapter extends ArrayAdapter<Item> {
 
         }
         else {
-
             itemView = (LinearLayout) convertView;
         }
             // findViewById
@@ -53,7 +52,7 @@ public class ItemAdapter extends ArrayAdapter<Item> {
             ImageView iv_body = (ImageView) itemView.findViewById(R.id.iv_body);
             TextView tv_end = (TextView) itemView.findViewById(R.id.tv_end);
 
-            // Get item position from Item class
+            // Get item by position from Item class
             final Item item = getItem(position);
 
             // Set value
@@ -65,6 +64,4 @@ public class ItemAdapter extends ArrayAdapter<Item> {
         return itemView;
 
         }
-
-
 }

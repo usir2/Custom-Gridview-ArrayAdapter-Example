@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         addItemToArrayByLoop();
 
         // Create new ItemAdapter for GridView
-        // Item Class(3 parameters) -> 1.Context 2.GridLayout XML file(Resource) 3.ArrayList of items
+        // ItemAdapter(have 3 parameters) -> 1.Context 2.GridLayout XML file(Resource) 3.ArrayList of items
         itemAdapter = new ItemAdapter(getApplicationContext(),R.layout.grid_layout,itemlist);
         // SetAdapter to GridView
         gridView.setAdapter(itemAdapter);
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void addItemToArray(){
         // Add items to ArrayList by Item class
-        // 3 parameters 1.HEAD 2.body 3.end
+        // Item Class(have 3 parameters) -> 1.head 2.body(imageview resource) 3.end
         itemlist.add(new Item("HEAD 1",R.mipmap.ic_launcher,"END 1"));
         itemlist.add(new Item("HEAD 2",R.mipmap.ic_launcher,"END 2"));
         itemlist.add(new Item("HEAD 3",R.mipmap.ic_launcher,"END 3"));
@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void addItemToArrayByLoop(){
         // Add 24 item to ArrayList use for Loop
-        // Item Class(3 parameters) ->  1.HEAD 2.body 3.end
+        // Item Class(have 3 parameters) -> 1.head 2.body(imageview resource) 3.end
         for(int i=0;i<24;i++) {
             itemlist.add(new Item("HEAD : "+i, R.mipmap.ic_launcher, "END : "+i));
         }
