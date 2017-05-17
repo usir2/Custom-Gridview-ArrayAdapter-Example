@@ -1,4 +1,4 @@
-# Gridview-CustomArrayAdapter ( Example )
+# Custom-Gridview-ArrayAdapter ( Example )
 
 * Use git clone or download the project file.<br />
 * The description is in the project file.
