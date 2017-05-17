@@ -11,4 +11,4 @@
 6. Create Adapter from ItemAdapter class.
 7. Set Adapter.
 # Application Screenshot
-![image](https://cloud.githubusercontent.com/assets/28505455/26162222/59058f2a-3b50-11e7-9bdd-bb14457c54d4.png)
+![image](https://cloud.githubusercontent.com/assets/28505455/26165748/403b0cc6-3b5b-11e7-94ea-52e3c2ec92f8.png)
