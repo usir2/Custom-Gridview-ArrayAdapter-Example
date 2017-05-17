@@ -4,7 +4,7 @@
 * The description is in the project file.
 # 7 Steps EZ!! 
 1. Create GridView in main XML file.
-2. Create GridCustomLayout XML file .
+2. Create GridViewCustomLayout XML file .
 3. Create Item class (Model).
 4. Create ItemAdapter class.
 5. Add items to arraylist.
